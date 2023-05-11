@@ -1,0 +1,22 @@
+.Container-FooterII {
+    width: 100vw;
+    height: 5%;
+    position: fixed;
+    color:white;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 0px 20px rgb(120, 116, 0);
+}
+
+.Container-FooterII-sec1 {
+    font-size: 0.8vmax;
+}
+
+.Container-FooterII-github-link {
+    font-size: 1vmax;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

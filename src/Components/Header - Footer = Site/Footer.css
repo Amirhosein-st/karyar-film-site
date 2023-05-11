@@ -1,0 +1,11 @@
+.container-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 5%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+    box-shadow: 0px 0px 20px rgb(120, 116, 0);
+}

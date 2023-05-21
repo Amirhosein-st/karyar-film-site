@@ -1,0 +1,54 @@
+.SearchById-back {
+    width: 35vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SearchById-back>h1 {
+    font-size: 1.5vmax;
+    color: white;
+    margin: 1vmax 0;
+}
+
+.SearchById-back>input {
+    width: 15vmax;
+    height: 2vmax;
+    background-color: transparent;
+    outline: none;
+    border: 0.1vmax solid gray;
+    padding: 0 0.5vmax;
+    border-radius: 7px;
+    color: white;
+    font-size: 0.8vmax;
+}
+
+.SearchById-back>input:focus {
+    background-color: white;
+    color: black;
+}
+
+.SearchById-back>form>button {
+    background-color: green;
+    padding: 0.5vmax 1vmax;
+    font-size: 0.7vmax;
+    margin-left: 1vmax;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.SearchById-back>form>button:hover {
+    border: 2px solid red;
+    transform: scale(1.1);
+    margin-left: 0.8vmax;
+}
+
+#film-details-search {
+    margin-top: 1vmax;
+}

@@ -1,0 +1,118 @@
+.film-list-page {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 5vmax 0;
+  background: linear-gradient(228deg, #000000, #6d3535, #000000, #7c6d4d, #000000, #000000);
+  background-size: 1200% 1200%;
+
+  -webkit-animation: movieListAnimation 30s ease infinite;
+  -moz-animation: movieListAnimation 30s ease infinite;
+  animation: movieListAnimation 30s ease infinite;
+}
+
+@-webkit-keyframes movieListAnimation {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-moz-keyframes movieListAnimation {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@keyframes movieListAnimation {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+
+.film-list-page > h1 {
+  color: white;
+  padding-left: 1.7vmax;
+  padding-bottom: 1vmax;
+  font-size: 2vmax;
+  border-bottom: 0.1vmax solid gray;
+}
+
+.bottom-filmList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vmax;
+}
+
+.pagination button {
+  background-color: #e50914;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5vmax 1vmax;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in;
+}
+
+.pagination button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #b50c0c;
+}
+
+.film-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60vmax;
+  gap: 1vmax;
+  margin-top: 2.5vmax;
+}
+
+.film-detailss {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 1vmax;
+  width: 25vmax;
+  cursor: pointer;
+  transition: transform 0.2s ;
+  border: 1px solid gray;
+
+}
+
+.film-detailss:hover {
+  transform: translateY(-10px);
+}
+
+.film-detailss p {
+  margin: 0 0 8px;
+  color: white;
+  width: 100%;
+  padding: 0.5vmax 0.3vmax;
+  border-radius: 0.5vmax;
+  border: 1px solid gray;
+  font-size: 0.8vmax;
+}
+
+.film-detailss img {
+  width: 100%;
+  height: auto;
+}
+
+#bookmark-filmlist {
+  width: 100%;
+  padding: 0.4vmax;
+  border-radius: 0.5vmax;
+  font-size: 1vmax;
+}

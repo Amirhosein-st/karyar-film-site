@@ -1,0 +1,49 @@
+.search-page-back {
+    width: 100%;
+    min-height: 100%;
+    max-height: auto;
+    padding: 5vmax 0;
+    background: linear-gradient(48deg, #000000, #60005a, #000000, #065c00);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+
+.search-page-back > h1 {
+    color: white;
+    padding-left: 1.7vmax;
+    padding-bottom: 1vmax;
+    font-size: 2vmax;
+    border-bottom: 0.1vmax solid gray;
+}
+
+.search-sections {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-2 {
+    border-top: 0.1vmax solid gray;
+    display: flex;
+}

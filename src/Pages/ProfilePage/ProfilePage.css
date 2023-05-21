@@ -1,0 +1,132 @@
+.profile-page-back {
+  width: 100%;
+  min-height: 100%;
+  max-height: auto;
+  padding: 5vmax 0;
+
+  background: linear-gradient(45deg, #000000, #0a5500, #000000, #8b7900, #000000);
+  background-size: 1000% 1000%;
+  -webkit-animation: ProfileAnimation 50s ease infinite;
+  -moz-animation: ProfileAnimation 50s ease infinite;
+  animation: ProfileAnimation 50s ease infinite;
+}
+
+@-webkit-keyframes ProfileAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+@-moz-keyframes ProfileAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+@keyframes ProfileAnimation {
+  0%{background-position:0% 97%}
+  50%{background-position:100% 4%}
+  100%{background-position:0% 97%}
+}
+
+.profile-page {
+  max-width: 30vmax;
+  margin: 1vmax auto;
+  font-family: Arial, sans-serif;
+}
+
+.profile-page-h1 {
+  color: white;
+  width: 100%;
+  margin-bottom: 1.5vmax;
+  padding-left: 1.5vmax;
+  font-size: 2vmax;
+  padding-bottom: 1vmax;
+  border-bottom: 0.1vmax solid gray;
+}
+
+.user-info,
+.bookmarks , 
+.AddedMovies {
+  background-color: #f2f2f2;
+  border-radius: 0.4vmax;
+  padding: 1vmax;
+  margin-bottom: 1vmax;
+}
+
+.profile-page h2,
+.profile-page h3{
+  color: white;
+  font-size: 1.5vmax;
+  margin-bottom: 0.5vmax;
+  cursor: default;
+}
+
+.user-info p{
+  font-size: 0.8vmax;
+  cursor: default;
+}
+.user-info p,
+.bookmarks ul li,
+.AddedMovies ul li {
+  margin-bottom: 0.5vmax;
+}
+
+.bookmarks ul ,
+.AddedMovies ul li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-name-profile {
+  cursor: pointer;
+  margin-right: 0.5vmax;
+  font-size: 0.9vmax;
+  font-weight: bold;
+}
+
+.movie-delete-profile {
+  padding: 0.3vmax 1vmax;
+  background-color: yellow;
+  border-radius: 0.3vmax;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8vmax;
+  cursor: pointer;
+  border: 2px solid red;
+  transform: scale(1);
+}
+
+.movie-delete-profile:hover {
+  transform: scale(1.1);
+}
+
+.movie-delete-profile:focus {
+  transform: scale(0.9);
+}
+
+.UserIcon-ProfilePage {
+  margin-bottom: 1vmax;
+}
+
+.User-Icon {
+  padding: 0.5vmax 1vmax;
+  background-color: green;
+  border-radius: 0.3vmax;
+  outline: none;
+  color: rgb(195, 195, 195);
+  font-weight: bold;
+  font-size: 0.8vmax;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s;
+  text-shadow: #000000  1px 2px 5px;
+  box-shadow: 5px 2px 5px #99aa4f8c;
+  margin-top: 0.5vmax;
+  border: 1px solid black;
+  margin-left: 1vmax;
+}
+
+.User-Icon:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 5px 10px #99aa4f8c;
+}

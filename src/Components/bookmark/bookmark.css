@@ -1,0 +1,9 @@
+.bookmark {
+  color: black;
+  cursor: cell;
+}
+
+.bookmark-yellow {
+  background-color: yellow;
+  cursor: default;
+}

@@ -1,0 +1,131 @@
+.NotFound-back {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background-image: url("../../Images/15861304776\ \(1\).jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.NotFound-LogedIN ,
+.NotFound-LogedOUT {
+    margin-left: 10vmax;
+    margin-bottom: 10vmax;
+}
+.NotFound-LogedIN > h1,
+.NotFound-LogedOUT > h1 {
+    font-size: 15vmax;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: #eb0205 10px 13px 15px;
+    color: #460016c5;
+}
+.NotFound-LogedIN > h2,
+.NotFound-LogedOUT > h2 {
+    font-size: 4vmax;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: #eb0205 10px 13px 15px;
+    color: #0d469b
+}
+.NotFound-LogedIN > h3 ,
+.NotFound-LogedOUT > h3{
+    font-size: 2vmax;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: #eb0205 10px 13px 15px;
+    color: #12091a;
+    padding-top: 5vmax;
+    padding-bottom: 1vmax;
+}
+
+/* LogedIN */
+
+.Container-NotFound-LogedIN-btn-DashboardPage ,
+.Container-NotFound-LogedIN-btn-ProfilePage {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    padding: 0.3vmax 1vmax;
+    border-radius: 0.5vmax;
+}
+
+.Container-NotFound-LogedIN-btn-ProfilePage {
+    border: 0.2vmax solid #ff7700;
+    margin-right: 1vmax;
+    color: #283d58;
+    text-shadow: #000000  1px 2px 5px;
+    box-shadow: 5px 2px 5px #99aa4f8c;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.Container-NotFound-LogedIN-btn-ProfilePage:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 5px 10px #99aa4f8c;
+    background-color: #ff77007d;
+}
+
+.Container-NotFound-LogedIN-btn-DashboardPage {
+    border: 0.2vmax solid #ff006f;
+    color: #ff7700;
+    text-shadow: #000000  1px 2px 5px;
+    box-shadow: 5px 2px 5px #99aa4f8c;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.Container-NotFound-LogedIN-btn-DashboardPage:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 5px 10px #99aa4f8c;
+    background-color: #ff006f78;
+}
+
+/* LogedOUT */
+
+.Container-NotFound-LogedOUT-btn-SignupPage ,
+.Container-NotFound-LogedOUT-btn-LoginPage {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+    padding: 0.3vmax 1vmax;
+    border-radius: 0.5vmax;
+}
+
+.Container-NotFound-LogedOUT-btn-SignupPage {
+    border: 0.2vmax solid #900000;
+    margin-right: 1vmax;
+    color: #022d8a;
+    text-shadow: #900000  1px 2px 5px;
+    box-shadow: 5px 2px 5px #900000;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.Container-NotFound-LogedOUT-btn-SignupPage:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 5px 10px #900000;
+    background-color: #9000007d;
+}
+
+.Container-NotFound-LogedOUT-btn-LoginPage {
+    border: 0.2vmax solid #00287d;
+    color: #900000;
+    text-shadow: #00287d  1px 2px 5px;
+    box-shadow: 5px 2px 5px #00287d;
+    cursor: pointer;
+    font-weight: bold;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.Container-NotFound-LogedOUT-btn-LoginPage:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 5px 10px #00287d;
+    background-color: #00287da2;
+}

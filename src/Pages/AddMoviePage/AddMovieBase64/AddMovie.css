@@ -1,0 +1,59 @@
+.add-movie-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vmax;
+}
+
+.add-movie-page h1 {
+  font-size: 1.5vmax;
+  margin-bottom: 1.5vmax;
+  color: white;
+}
+
+.add-movie-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18vmax;
+  padding: 0.8vmax;
+  border: 2px solid white;
+  border-radius: 0.5vmax;
+}
+
+.add-movie-page input {
+  width: 100%;
+  padding: 0.5vmax;
+  margin-bottom: 0.8vmax;
+  border: 1px solid white;
+  border-radius: 0.3vmax;
+  font-size: 0.9vmax;
+  color: white;
+  background-color: transparent;
+}
+
+.add-movie-page button {
+  padding: 0.5vmax 1vmax;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8vmax;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s;
+}
+.add-movie-page button:hover {
+  transform: scale(1.05)
+}
+
+.add-movie-page p {
+  margin-top: 1vmax;
+  font-size: 0.8vmax;
+  color: #007bff;
+}
+
+.add-movie-message {
+  font-size: 1.5vw;
+  color: green;
+}

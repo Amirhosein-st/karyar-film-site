@@ -1,0 +1,89 @@
+.film-list-Genre {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.6vmax;
+    margin:  1vmax 0 ;
+}
+
+.film-details-Genre {
+    display: flex;
+    flex-direction: column;
+    width: 12.5vmax;
+    padding: 0.5vmax;
+    border: 0.05vmax solid black;
+    gap: 0.5vmax;
+    transform: scale(1);
+    border-radius: 0.8vmax;
+    transition: 0.3s;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+.film-details-Genre > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0.1vmax solid black;
+    padding: 0.3vmax;
+    border-radius: 0.2vmax;
+    font-weight: bold;
+    font-size: 0.9vmax;
+    direction: ltr;
+    color: #a8b9ba;
+}
+
+.poster-Genre {
+    width: 100%;
+    border-radius: 0.4vmax;
+}
+
+.film-details-Genre-Genre-name {
+    width: 1.8vmax;
+    transition: 0.3s;
+    background-color: #a8b9ba;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.film-details-Genre-Genre-name > p {
+    position: relative;
+    width: auto;
+    top: 55%;
+    left: 50%;
+    transform:  translate(-50%, -50%) rotate(90deg);
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 0.9vmax;
+}
+
+.film-details-Genre-show-more {
+    width: 2vmax;
+    transition: 0.3s;
+    background-color: #bf3e27;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.film-details-Genre-show-more-p {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%) rotate(-90deg);
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 0.9vmax;
+    color: white;
+}
+.film-details-Genre-show-more:hover {
+    border-radius: 10px;
+}
+
+.film-details-Genre:hover{
+   background-color: gray;
+   transform: scale(1.05);
+   box-shadow: 5px 5px 10px gray;
+   outline: 2px solid rgb(111, 0, 0);
+}
+.film-details-Genre:hover p{
+    background-color: black;
+    color: white;
+}
